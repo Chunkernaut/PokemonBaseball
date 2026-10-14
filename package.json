@@ -1,0 +1,13 @@
+{
+  "name": "pokemon-baseball-draft-v5-5",
+  "version": "0.5.5",
+  "private": true,
+  "description": "Fifteen-Pokemon fantasy baseball with replayable 162-game seasons and Dominant Game events",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node type-balance-test.js && node fatigue-test.js && node special-events-test.js && node smoke-test.js && node draft-bot-test.js && node v55-test.js"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
